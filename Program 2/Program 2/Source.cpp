@@ -7,7 +7,7 @@ int main()
 	scanf("%d", &num);
 	printf ("Enter second number :");
 	scanf("%d", &ber);
-	for (a = 1; (a < num) && (a < ber); a++)
+	for (a = 1; (a <= num) && (a <= ber); a++)
 		if ((num % a == 0) && (ber % a == 0))
 			b = a;
 	printf("Greatest common divisor = %d", b);
